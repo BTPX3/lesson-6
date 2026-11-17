@@ -1,10 +1,12 @@
 @import url("fonts.css");
 
 .container {
+  box-sizing: border-box;
   width: 100%;
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 40px 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: max(20px, calc(50vw - 600px));
+  padding-right: max(20px, calc(50vw - 600px));
 }
 
 body {
@@ -37,6 +39,7 @@ body {
 }
 
 .comparison {
+  box-sizing: border-box;
   width: 100%;
   overflow-x: auto;
   background-color: #ffffff;
